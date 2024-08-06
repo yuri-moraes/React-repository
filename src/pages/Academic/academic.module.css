@@ -1,0 +1,101 @@
+.academicSection {
+  font-family: "Inria Sans", sans-serif;
+  min-height: 90vh;
+  overflow: hidden;
+}
+
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+:root {
+  --card-height: 40vh;
+  --card-width: 90%;
+}
+
+.card {
+  margin: 2em auto 9em;
+  background: #191c29;
+  width: var(--card-width);
+  display: flex;
+  align-items: center;
+  height: var(--card-height);
+  position: relative;
+  border-radius: 6px;
+  font-size: 1.5em;
+  font-family: cursive;
+  padding: 2em;
+}
+
+@media (max-width: 768px) {
+  .card {
+    height: auto;
+    margin: 1em auto;
+  }
+}
+
+.card::before {
+  content: "";
+  width: 104%;
+  height: 102%;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    var(--rotate),
+    #5ddcff,
+    #3c67e3 43%,
+    #4e00c2
+  );
+  position: absolute;
+  z-index: -1;
+  top: -1%;
+  left: -2%;
+  animation: spin 2.5s linear infinite;
+}
+
+.card::after {
+  position: absolute;
+  content: "";
+  top: calc(var(--card-height) / 6);
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(0.8);
+  filter: blur(calc(var(--card-height) / 6));
+  background-image: linear-gradient(
+    var(--rotate),
+    #5ddcff,
+    #3c67e3 43%,
+    #4e00c2
+  );
+  opacity: 1;
+  transition: opacity 0.5s;
+  animation: spin 2.5s linear infinite;
+}
+
+.icon {
+  width: 100%;
+  border: 2px solid #3c67e3;
+}
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}
+
+.btnGrid {
+  transition: all 0.3s ease;
+  background-color: #191c29;
+}
+
+.btnGrid:hover {
+  transform: translate3d(0, -10px, 22px);
+}

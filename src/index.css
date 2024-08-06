@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #a1ddff;
+}
+
+body {
+  background-color: #0d1b37;
+  overflow-x: hidden;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+#inicio,
+#projetos,
+#contato,
+#academico {
+  padding-top: 1em;
+}
+
+#projetos {
+  padding-top: 3em;
+}

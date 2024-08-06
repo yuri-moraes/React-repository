@@ -1,0 +1,105 @@
+.contactSection {
+  min-height: 45vh;
+  max-width: 60vh;
+  padding: 2em 1em;
+  margin-top: 10em;
+  display: block;
+}
+
+.title {
+  font-family: "Inria Sans", sans-serif;
+  margin-bottom: 1em;
+}
+
+.emailClipboard {
+  background-color: #191c29;
+  border: 2px solid #462ed1;
+  width: 100%;
+  text-align: center;
+  padding: 1.5em;
+  box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.1) inset,
+    12px 12px 12px black inset;
+  border-radius: 0.5em;
+  margin: 0 auto;
+}
+
+.text {
+  color: #a1ddff;
+  font-family: "Inria Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+
+.btn {
+  font-family: "Inria Sans", sans-serif;
+  border: 2px solid black;
+  width: 98%;
+  text-align: center;
+  border-radius: 0.5em;
+  box-shadow: 16px 14px 20px #191c29;
+  margin: 0 auto;
+  padding: 0.3em;
+  background-color: #a1ddff;
+  color: #0d1c39;
+  transition: background-color 0.3s, color 0.3s;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translate3d(0, -10px, 22px);
+  color: #462ed1;
+}
+
+.copiedButton {
+  background-color: #62f362; /* Cor verde para indicar que o email foi copiado */
+  color: #000000; /* Cor do texto após copiar */
+}
+
+@media (max-width: 621px) {
+  .contactSection {
+    padding: 1em 2em;
+    margin-top: 5em;
+  }
+
+  .emailClipboard {
+    padding: 1em;
+    font-size: 0.9em;
+  }
+
+  .btn {
+    padding: 0.5em;
+    font-size: 1em;
+  }
+
+  .text {
+    padding: 0;
+    font-size: 1.6em;
+  }
+}
+
+@media (max-width: 522px) {
+  .contactSection {
+    padding: 0.5em 1em;
+    margin-top: 3em;
+  }
+
+  .emailClipboard {
+    padding: 1em;
+    font-size: 0.8em;
+  }
+
+  .btn {
+    padding: 0.2em;
+    font-size: 0.9em;
+  }
+
+  .text {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 410px) {
+  .text {
+    font-size: 1.2em;
+  }
+}

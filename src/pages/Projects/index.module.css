@@ -1,0 +1,9 @@
+.projectsSection {
+  width: 100%;
+  background: linear-gradient(to bottom, #0d1b37, #102852);
+  transition: 0.8s;
+  border-radius: 1em;
+  padding: 5em;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}

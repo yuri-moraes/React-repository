@@ -1,0 +1,24 @@
+.imageWidth {
+  max-width: 100%;
+  display: block;
+}
+
+.projectDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: 0.8s;
+  border-radius: 1em;
+  box-sizing: border-box;
+}
+
+.projectDiv:hover {
+  box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.1), 12px 12px 12px black;
+  background-color: #142649;
+}
+
+.title {
+  color: #a1d9ff;
+  font-weight: 100;
+}

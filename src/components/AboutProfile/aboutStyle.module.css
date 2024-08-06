@@ -1,0 +1,27 @@
+.tech {
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.tech:hover {
+  box-shadow: -8px -8px 8px rgba(0, 0, 0, 0.1) inset, 10px 10px 10px black inset;
+}
+
+@media (max-width: 576px) {
+  .fs-5-mobile {
+    font-size: 1rem;
+  }
+  .fs-4-mobile {
+    font-size: 1.25rem;
+  }
+
+  .tech {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+}

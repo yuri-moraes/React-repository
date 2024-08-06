@@ -1,0 +1,11 @@
+.aboutSection {
+  margin: 15em auto 5em;
+  padding: 4em 2em;
+  transition: 0.8s;
+  border-radius: 1em;
+  background: linear-gradient(to bottom, #0d1b3748, #0f2a61ad);
+}
+
+.aboutSection:hover {
+  box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.1), 12px 12px 12px black;
+}
