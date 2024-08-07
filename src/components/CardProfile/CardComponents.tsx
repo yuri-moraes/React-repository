@@ -57,13 +57,13 @@ const LinksProfile: React.FC<LinksProfileProps> = ({ href1, href2, href3 }) => {
         >
           <FaLinkedin size={30} data-aos="flip-up" />
         </a>
-        <a
-          href={href3}
+        <Link
+          to={href3}
           className="text-decoration-none text-light mx-3"
           title="E-mail link"
         >
           <FaEnvelope size={30} data-aos="flip-down" />
-        </a>
+        </Link>
       </div>
     </div>
   );

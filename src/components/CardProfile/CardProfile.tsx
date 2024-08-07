@@ -19,7 +19,7 @@ const CardProfile: React.FC = () => {
   const githubLink: string = "https://github.com/yuri-moraes";
   const linkedinLink: string =
     "https://www.linkedin.com/in/yuri-moraes-4b018b252/";
-  const emailLink: string = "yuri.nogueira.de.moraes@hotmail.com";
+  const emailLink: string = "/#contato";
 
   return (
     <>
