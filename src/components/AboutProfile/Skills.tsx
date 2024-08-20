@@ -11,6 +11,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { BiLogoTypescript, BiLogoTailwindCss } from "react-icons/bi";
 import { GrMysql } from "react-icons/gr";
 import SkillIcon from "./SkillIcon";
+import { RiNextjsFill } from "react-icons/ri";
 import styles from "./aboutStyle.module.css";
 
 const Skills: React.FC = () => {
@@ -25,6 +26,7 @@ const Skills: React.FC = () => {
     { icon: FaReact, label: "React" },
     { icon: FaPython, label: "Python" },
     { icon: GrMysql, label: "MySQL" },
+    { icon: RiNextjsFill, label: "Next.js" },
   ];
 
   return (
