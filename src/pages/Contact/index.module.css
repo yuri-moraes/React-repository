@@ -1,6 +1,6 @@
 .contactSection {
   min-height: 45vh;
-  max-width: 60vh;
+  max-width: 571px;
   padding: 2em 1em;
   margin-top: 10em;
   display: block;
@@ -27,7 +27,14 @@
   color: #a1ddff;
   font-family: "Inria Sans", sans-serif;
   text-transform: uppercase;
-  font-size: 1.4em;
+  font-size: clamp(
+    1.4em,
+    1.4vw,
+    1.4em
+  ); /* Ajusta o tamanho da fonte responsivamente */
+  overflow-wrap: break-word; /* Permite a quebra de linha */
+  word-break: break-all; /* Força a quebra de linha quando necessário */
+  text-align: center; /* Centraliza o texto */
 }
 
 .btn {
@@ -72,8 +79,7 @@
   }
 
   .text {
-    padding: 0;
-    font-size: 1.6em;
+    font-size: clamp(0.8em, 2vw, 1.2em);
   }
 }
 
@@ -90,16 +96,6 @@
 
   .btn {
     padding: 0.2em;
-    font-size: 0.9em;
-  }
-
-  .text {
-    font-size: 1.4em;
-  }
-}
-
-@media (max-width: 410px) {
-  .text {
-    font-size: 1.2em;
+    font-size: clamp(0.7em, 2vw, 1em);
   }
 }
