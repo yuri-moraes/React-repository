@@ -36,6 +36,31 @@
   }
 }
 
+@media (max-height: 646px) {
+  .card {
+    padding-top: 6em;
+    font-size: 0.9em;
+    padding-bottom: 4em;
+  }
+
+  .card h1,
+  h2 {
+    font-size: 1.5em;
+  }
+
+  img {
+    width: 145px;
+    margin-bottom: 2em;
+  }
+
+  button {
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .card::before {
   content: "";
   width: 104%;

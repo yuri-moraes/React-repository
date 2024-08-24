@@ -17,11 +17,14 @@ footer {
 
 #inicio,
 #projetos,
-#contato,
-#academico {
+#contato {
   padding-top: 1em;
 }
 
 #projetos {
   padding-top: 3em;
+}
+
+#academico {
+  padding-top: 4em;
 }

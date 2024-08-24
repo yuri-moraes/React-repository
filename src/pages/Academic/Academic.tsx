@@ -17,14 +17,12 @@ const Academic: React.FC = () => {
       <div className={`border rounded ${styles.card}`}>
         <div className="row">
           <div className="col-md-8">
-            <h1 className="fs-1" data-aos="zoom-in-down">
-              Yuri Nogueira de Moraes
-            </h1>
-            <h2 className="mt-3 fs-2" data-aos="zoom-in-right">
+            <h1 data-aos="zoom-in-down">Yuri Nogueira de Moraes</h1>
+            <h2 className="mt-3 " data-aos="zoom-in-right">
               Análise e Desenvolvimento de Sistemas
             </h2>
             <hr />
-            <div className="container mt-4 fs-5">
+            <div className={`container mt-4 ${styles.description}`}>
               <p>
                 <span className="fw-bold">Instituição:</span> UNINTER Centro
                 Universitário Internacional
