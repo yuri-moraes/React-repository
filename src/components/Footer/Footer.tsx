@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
         </div>
         <div>
           <p className="text-dark fs-6 fw-bold">
-            © 2023 Yuri Moraes - Todos os direitos reservados
+            © 2024 Yuri Moraes - Todos os direitos reservados
           </p>
         </div>
       </div>
