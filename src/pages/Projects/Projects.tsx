@@ -23,24 +23,28 @@ const Projects: React.FC = () => {
             description="REAC STOCK"
             img={stockProject}
             link="https://react-stock-dev.vercel.app/"
+            source="https://github.com/yuri-moraes/stock-frontend"
           />
           <ProjectCard
             text="ESTUDO DE CASO"
             description="EVOGYM - LANDING PAGE"
             img={evogym}
             link="https://86676157.react-gym-f52.pages.dev/"
+            source="https://github.com/yuri-moraes/react-gym"
           />
           <ProjectCard
             text="ESTUDO DE CASO"
             description="JOGO DA VELHA"
             img={jogoDaVelha}
             link="https://yuri-moraes.github.io/jogo-da-velha/"
+            source="https://github.com/yuri-moraes/jogo-da-velha"
           />
           <ProjectCard
             text="ESTUDO DE CASO"
             description="CALCULADORA WEB"
             img={calculator}
             link="https://yuri-moraes.github.io/Calculator.js/"
+            source="https://github.com/yuri-moraes/Calculator.js"
           />
         </div>
       </section>

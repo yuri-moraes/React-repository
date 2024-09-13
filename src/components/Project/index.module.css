@@ -11,6 +11,7 @@
   transition: 0.8s;
   border-radius: 1em;
   box-sizing: border-box;
+  border: 2px solid transparent;
 }
 
 .projectDiv:hover {
@@ -21,4 +22,13 @@
 .title {
   color: #a1d9ff;
   font-weight: 100;
+}
+
+.card {
+  border: 2px solid transparent;
+  transition: 0.8s;
+}
+
+.card:hover {
+  border: 2px dotted #a1d9ff;
 }

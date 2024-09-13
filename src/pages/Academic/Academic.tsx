@@ -10,7 +10,7 @@ const Academic: React.FC = () => {
   };
 
   return (
-    <div
+    <section
       id="academico"
       className={`container scroll-offset ${styles.academicSection}`}
     >
@@ -61,7 +61,7 @@ const Academic: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

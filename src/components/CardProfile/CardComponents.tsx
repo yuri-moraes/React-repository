@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { HashLink as Link } from "react-router-hash-link";
+import styles from "./index.module.css";
 
 interface ImgProfileProps {
   style: string;
@@ -43,7 +44,7 @@ const LinksProfile: React.FC<LinksProfileProps> = ({ href1, href2, href3 }) => {
           href={href1}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-decoration-none text-light mx-3"
+          className={`text-decoration-none text-light mx-3 ${styles.iconLink}`}
           title="GitHub link"
         >
           <FaGithub size={30} data-aos="flip-right" />
@@ -52,14 +53,14 @@ const LinksProfile: React.FC<LinksProfileProps> = ({ href1, href2, href3 }) => {
           href={href2}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-decoration-none text-light mx-3"
+          className={`text-decoration-none text-light mx-3 ${styles.iconLink}`}
           title="Linkedin link"
         >
           <FaLinkedin size={30} data-aos="flip-up" />
         </a>
         <Link
           to={href3}
-          className="text-decoration-none text-light mx-3"
+          className={`text-decoration-none text-light mx-3 ${styles.iconLink}`}
           title="E-mail link"
         >
           <FaEnvelope size={30} data-aos="flip-down" />

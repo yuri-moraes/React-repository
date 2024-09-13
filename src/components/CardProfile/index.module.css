@@ -90,6 +90,17 @@
   margin-top: 1em;
 }
 
+.iconLink {
+  display: inline-block;
+  transition: transform 0.3s ease; /* Adiciona a transição */
+}
+
+.iconLink:hover {
+  transform: translateY(
+    -10px
+  ); /* Move o ícone 10px para cima ao passar o mouse */
+}
+
 @keyframes spin {
   0% {
     --rotate: 0deg;

@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  FaGitAlt,
   FaHtml5,
   FaCss3,
   FaPython,
@@ -8,7 +9,11 @@ import {
   FaSass,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { BiLogoTypescript, BiLogoTailwindCss } from "react-icons/bi";
+import {
+  BiLogoTypescript,
+  BiLogoTailwindCss,
+  BiLogoPostgresql,
+} from "react-icons/bi";
 import { GrMysql } from "react-icons/gr";
 import SkillIcon from "./SkillIcon";
 import { RiNextjsFill } from "react-icons/ri";
@@ -16,6 +21,7 @@ import styles from "./aboutStyle.module.css";
 
 const Skills: React.FC = () => {
   const skills = [
+    { icon: FaGitAlt, label: "Git" },
     { icon: FaHtml5, label: "HTML5" },
     { icon: FaCss3, label: "CSS3" },
     { icon: FaSass, label: "Sass" },
@@ -25,7 +31,9 @@ const Skills: React.FC = () => {
     { icon: BiLogoTypescript, label: "TypeScript" },
     { icon: FaReact, label: "React" },
     { icon: FaPython, label: "Python" },
+    { icon: FaGitAlt, label: "Git" },
     { icon: GrMysql, label: "MySQL" },
+    { icon: BiLogoPostgresql, label: "PostgreSQL" },
     { icon: RiNextjsFill, label: "Next.js" },
   ];
 
