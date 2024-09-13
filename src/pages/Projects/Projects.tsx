@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./index.module.css";
 import stockProject from "../../assets/Mockup-1.png";
-import passwordProject from "../../assets/Mockup-2.png";
+import evogym from "../../assets/Mockup-2.png";
 import jogoDaVelha from "../../assets/Mockup-3.png";
 import calculator from "../../assets/Mockup-4.png";
 import ProjectCard from "../../components/Project/ProjectCard";
@@ -19,16 +19,16 @@ const Projects: React.FC = () => {
         </div>
         <div className="row d-flex justify-content-center">
           <ProjectCard
-            text="ESTUDO DE CASO"
-            description="CONTROLE DE ESTOQUE FUNCIONAL CONSTRUIDO EM REACT"
+            text="CONTROLE DE ESTOQUE FUNCIONAL"
+            description="REAC STOCK"
             img={stockProject}
-            link="https://yuri-moraes.github.io/stock-control/"
+            link="https://react-stock-dev.vercel.app/"
           />
           <ProjectCard
             text="ESTUDO DE CASO"
-            description="GERADOR DE SENHA CUSTOMIZADO CONSTRUIDO EM REACT"
-            img={passwordProject}
-            link="https://yuri-moraes.github.io/password-generate/"
+            description="EVOGYM - LANDING PAGE"
+            img={evogym}
+            link="https://86676157.react-gym-f52.pages.dev/"
           />
           <ProjectCard
             text="ESTUDO DE CASO"
