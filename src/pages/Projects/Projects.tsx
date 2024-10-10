@@ -19,32 +19,32 @@ const Projects: React.FC = () => {
         </div>
         <div className="row d-flex justify-content-center">
           <ProjectCard
-            text="CONTROLE DE ESTOQUE FUNCIONAL"
-            description="REAC STOCK"
+            text="React.js e Node.js"
+            description="Controle de Estoque e Usuários"
             img={stockProject}
             link="https://react-stock-dev.vercel.app/"
             source="https://github.com/yuri-moraes/stock-frontend"
           />
           <ProjectCard
-            text="ESTUDO DE CASO"
-            description="EVOGYM - LANDING PAGE"
+            text="React.js e Django Rest Framework"
+            description="Sistema de Gestão Empresarial (ERP)"
+            img={calculator}
+            link="https://sistema-erp-front-end-9gig.vercel.app/"
+            source="https://github.com/yuri-moraes/sistema_erp_front_end"
+          />
+          <ProjectCard
+            text="TypeScript e React.js"
+            description="Evogym- Landing Page"
             img={evogym}
             link="https://86676157.react-gym-f52.pages.dev/"
             source="https://github.com/yuri-moraes/react-gym"
           />
           <ProjectCard
-            text="ESTUDO DE CASO"
-            description="JOGO DA VELHA"
+            text="HTML, CSS e JavaScript"
+            description="Jogo da Velha Web"
             img={jogoDaVelha}
             link="https://yuri-moraes.github.io/jogo-da-velha/"
             source="https://github.com/yuri-moraes/jogo-da-velha"
-          />
-          <ProjectCard
-            text="ESTUDO DE CASO"
-            description="CALCULADORA WEB"
-            img={calculator}
-            link="https://yuri-moraes.github.io/Calculator.js/"
-            source="https://github.com/yuri-moraes/Calculator.js"
           />
         </div>
       </section>

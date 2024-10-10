@@ -13,6 +13,7 @@ import {
   BiLogoTypescript,
   BiLogoTailwindCss,
   BiLogoPostgresql,
+  BiLogoDjango,
 } from "react-icons/bi";
 import { GrMysql } from "react-icons/gr";
 import SkillIcon from "./SkillIcon";
@@ -31,6 +32,7 @@ const Skills: React.FC = () => {
     { icon: BiLogoTypescript, label: "TypeScript" },
     { icon: FaReact, label: "React" },
     { icon: FaPython, label: "Python" },
+    { icon: BiLogoDjango, label: "Django" },
     { icon: FaGitAlt, label: "Git" },
     { icon: GrMysql, label: "MySQL" },
     { icon: BiLogoPostgresql, label: "PostgreSQL" },
